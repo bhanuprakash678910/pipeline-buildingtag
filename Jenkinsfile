@@ -9,5 +9,5 @@ pipeline {
                 echo "Hello World Building Tag"
             }
         }
-    }
+     }
   }
