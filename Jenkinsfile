@@ -2,9 +2,10 @@ pipeline {
     agent any
     stages {
         stage("Build Master") {
-            when {
+           /* when {
               buildingTag()
             }
+            */
             steps {
                 echo "Hello World Building Tag"
             }
